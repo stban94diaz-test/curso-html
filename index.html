@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio de @stban94diaz</title>
+
+    <meta name="description" content="Portfolio de @stban94diaz, ingeniero de sistemas, con +7 años de experiencia como desarrollador de software y con +1 año como lider de desarrollo">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Portfolio de @stban94diaz, +7 años de experiencia como desarrollador de software">
+    <meta property="og:description" content="Portfolio de @stban94diaz, ingeniero de sistemas, con +7 años de experiencia como desarrollador de software y con +1 año como lider de desarrollo">
+    <meta property="og:image" content="/images/yo.jpeg">
+    <meta property="og:image:alt" content="Una imagen de @stban94diaz posando en frente a su facultad rodeado de la naturaleza">
+
+    <link rel="alternative" href="https://stban94diaz.dev/en" hreflang="en-US">
+    <link rel="canonical" href="https://stban94diaz.dev">
+
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#09f">
+
+    <link rel="shortcut icon" href="images/yo.jpeg" type="image/jpeg">
+
+    <style>
+      :root {
+        color-scheme: dark light;
+      }
+
+      body {
+        background: #09f;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Portfolio de @stban94diaz 🧑🏻‍💻</h1>
+
+      <!-- <iframe
+        style="width: 100%; aspect-ratio: 16/9;"
+        src="https://www.youtube.com/embed/3nYLTiY5skU?si=i1ejgHJ_-69H1s04&amp;start=6159"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+      ></iframe> -->
+
+      <nav>
+        <a href="#experience">Experiencia</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+        <a
+          href="https://www.linkedin.com/in/esteban-danilo-diaz-riascos/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Linkedin
+        </a>
+      </nav>
+    </header>
+
+    <dialog id="modal">
+      <h1>¿Sabias que puedes abrir una modal así?</h1>
+      <p>¡Y es totalmente natívo!</p>
+      <button id="hide">Cerrar modal</button>
+    </dialog>
+    <button id="show">Ver más información</button>
+
+    <script>
+      window.show.addEventListener('click', () => window.modal.showModal())
+      window.hide.addEventListener('click', () => window.modal.close())
+    </script>
+
+    <!-- <audio controls autoplay src="https://download.samplelib.com/mp3/sample-15s.mp3"></audio>
+    <video autoplay loop muted src="https://filesamples.com/samples/video/mp4/sample_960x400_ocean_with_audio.mp4"></video> -->
+
+    <main>
+      <p>
+        <strong>Ingeniero de sistemas</strong>,
+        con +7 años de experiencia como 
+        <strong>desarrollador de software</strong>
+        y con +1 año como lider de desarrollo
+      </p>
+
+      <h2 id="experience">Experiencia</h2>
+
+      <ul>
+        <li class="list-item">Comware (Julio 2023 - actualidad)</li>
+        <li class="list-item">CSmart (Enero 2023 - Julio 2023)</li>
+        <li class="list-item">ADL Proptech (Junio 2022 - Enero 2023)</li>
+        <li class="list-item">Davinci (Diciembre 2020 - Mayo 2022)</li>
+        <li class="list-item">Xoftix (Diciembre 2018 - Julio 2020)</li>
+        <li class="list-item">Kommit (Julio 2018 - Septiembre 2018)</li>
+      </ul>
+
+      <a download href="images/yo.jpeg">
+        <img
+          id="photo-image"
+          width=200
+          height=200
+          title="Foteo de @stban94diaz"
+          src="images/yo.jpeg"
+          alt="Una imagen de @stban94diaz posando en frente a su facultad rodeado de la naturaleza"
+        >
+      </a>
+
+      <h2 id="projects">Proyectos realizados</h2>
+
+      <aside>
+        <header>
+          <h3 id="technologies">Mis tecnologías favoritas</h3>
+        </header>
+        <ol type="1" start="20" reversed>
+          <li>HTML</li>
+          <li value="10">CSS</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+          <li>React</li>
+          <li>TypeScript</li>
+          <li>Python</li>
+          <li>PostgreSQL</li>
+          <li>Docker</li>
+        </ol>
+      </aside>
+
+      <section>
+        <article>
+          <header>
+            <h4>Proyecto 1: La pagína de Tesla</h4>
+            <img
+              loading="lazy"
+              src="/images/tesla.png"
+              alt="Captura de la pagía web de Tesla"
+              style="width: 100%; aspect-ratio: 640/330;">
+          </header>
+          <p>
+            Elon Musk me llamó e hice en una tarde esta pagína desde cero.
+          </p>
+          <footer>
+            <small>
+              Tecnologias usadas: HTML, CSS, JavaScript
+            </small>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h4>Proyecto 2: Sistema de gestión de tareas</h4>
+          </header>
+          <p>
+            Una solución para administrar tus tareas en un entorno de trabajo de manera más organizada y eficiente.
+          </p>
+          <footer>
+            <small>
+              Tecnologias usadas: HTML, CSS, JavaScript
+            </small>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h4>Proyecto 3: Sistema de gestión de tareas</h4>
+          </header>
+          <p>
+            Una solución para administrar tus tareas en un entorno de trabajo de manera más organizada y eficiente.
+          </p>
+          <footer>
+            <small>
+              Tecnologias usadas: HTML, CSS, JavaScript
+            </small>
+          </footer>
+        </article>
+
+        <article>
+          <header>
+            <h4>Proyecto 4: Sistema de gestión de tareas</h4>
+          </header>
+          <p>
+            Una solución para administrar tus tareas en un entorno de trabajo de manera más organizada y eficiente.
+          </p>
+          <footer>
+            <small>
+              Tecnologias usadas: HTML, CSS, JavaScript
+            </small>
+          </footer>
+        </article>
+      </section>
+
+      <section>
+        <h2>Preguntas frecuentes</h2>
+
+        <details>
+          <summary>¿Qué estudios tienes?</summary>
+          <p>
+            Estudié en la universidad de Nariño Ingenieria de Sistemas durante 5 años,
+            realice trabajo de grado durante 4 años obteniendo mension meritoria al tener
+            una calificación final de 98 puntos.
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Cúales son tus hobbies?</summary>
+          <p>
+            Me gusta mucho el deporte, sobre todo el fútbol y el ciclismo.
+          </p>
+        </details>
+      </section>
+
+      <section>
+        <h2 id="contact">Formulario de contacto</h2>
+
+        <form action="/" method="post">
+          <fieldset>
+            <legend>Información personal</legend>
+
+            <div>
+              <label for="name">Nombre:</label>
+              <input type="text" name="name" id="name" required placeholder="Esteban Danilo Diaz">
+            </div>
+
+            <label>
+              Email:
+              <input type="email" name="email" required placeholder="stban94diaz@gmail.com">
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Información adicional</legend>
+
+            <div>
+              <label>
+                Teléfono:
+                <input type="tel" name="phone" placeholder="3173182131" pattern="[0-9]{10}">
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Otros</legend>
+
+            <div>
+              <label for="why">¿Por qué quieres contactar?</label>
+              <select name="why" id="why">
+                <option value="1">Oferta de trabajo</option>
+                <option value="2">Duda</option>
+                <option value="3">Más información</option>
+              </select>
+            </div>
+
+            <div>
+              <datalist id="languages">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="Java"></option>
+              </datalist>
+              <label>
+                ¿Con qué lenguaje quieres que te ayude?
+                <input list="languages" name="languages">
+              </label>
+            </div>
+
+            <div>
+              <label for="terms">¿Aceptas los términos?</label>
+              <input type="checkbox" name="terms" id="terms" required>
+            </div>
+          </fieldset>
+
+          <button>Enviar contacto</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      Copyright &copy; 2023 - El portfolio más bello del mundo
+
+      <a href="mailto:stban94diaz@gmail.com">Envíame un correo</a>
+      <a href="tel:+573173182131">Llamar por teléfono</a>
+      <a href="https://wa.me/573173182131" target="_blank" rel="noreferrer">Escribeme por WhatsApp</a>
+    </footer>
+  </body>
+</html>
